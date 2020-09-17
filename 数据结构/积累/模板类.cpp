@@ -1,3 +1,6 @@
+//1.注意函数前也要加模板标志
+//2.类中用了模板，就需要Node<T>::Node
+//3.主函数调用时，在函数名后也需要加具体类型 Compare<int> intp(3,5);
 #include<iostream>
 using namespace std;
 
